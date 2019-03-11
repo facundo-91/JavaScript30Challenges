@@ -1,0 +1,29 @@
+/* CSS variables */
+:root {
+	--base: #ffc600;
+	--spacing: 10px;
+	--blur: 0px;
+}
+img {
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+.hl {
+	color: var(--base);
+}
+
+/* Style */
+body {
+	text-align: center;
+	background: #193549;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+}
+.controls {
+	margin-bottom: 3rem;
+}
+input {
+	margin-right: 2rem;
+}
